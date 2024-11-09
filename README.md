@@ -25,7 +25,7 @@ To get started with this project, you'll need to have Python 3.x installed along
 Clone this repository
 bash
 Copy code
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/ShreyasKulkarni19/Covid19_training_with_inference.git
 cd your-repo-name
 Install the dependencies
 bash
