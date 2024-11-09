@@ -1,5 +1,9 @@
 # Covid19_training_with_inference
 
+## The Kaggle file has the main code which one of the best performing model parameters.
+## The inference file has the inference part of the project.
+## The tuning file consists of hyperparameters tuning and performance graphs.
+
 This repository contains code for training and evaluating deep learning models with various hyperparameter configurations. The project allows you to experiment with different optimizers, learning rates, batch sizes, and weight decay strategies to optimize your model's performance. The goal is to provide a framework for running multiple training configurations and comparing their results, including metrics such as training loss, validation accuracy, and training time.
 
 This repository includes scripts for:
