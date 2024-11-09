@@ -2,15 +2,6 @@
 
 This repository contains code for training and evaluating deep learning models with various hyperparameter configurations. The project allows you to experiment with different optimizers, learning rates, batch sizes, and weight decay strategies to optimize your model's performance. The goal is to provide a framework for running multiple training configurations and comparing their results, including metrics such as training loss, validation accuracy, and training time.
 
-Table of Contents
-Project Overview
-Installation
-Usage
-Hyperparameters
-Results
-License
-Acknowledgments
-Project Overview
 This repository includes scripts for:
 
 Model Training: Train deep learning models using different configurations and optimizers.
@@ -44,19 +35,13 @@ Usage
 1. Model Setup:
 The model is initialized and trained using different configurations specified in the configs list. You can modify this list to try different combinations of learning rates, batch sizes, and optimizers.
 
-python
-Copy code
 configs = [
     {'device': 'cpu', 'learning_rate': 0.001, 'batch_size': 32, 'optimizer': 'adam', 'weight_decay': 0},
     {'device': 'cuda', 'learning_rate': 0.001, 'batch_size': 32, 'optimizer': 'adam', 'weight_decay': 0},
     # More configurations...
 ]
-2. Running the Experiment:
-Run the main script to train the model with the defined configurations and plot the results:
 
-bash
-Copy code
-python main.py
+
 This will run the training for each configuration and generate plots for the following metrics:
 
 Training and validation loss
@@ -81,8 +66,6 @@ optimizer: The optimizer used for training (e.g., 'adam', 'sgd', 'adamw', 'rmspr
 momentum: Momentum for optimizers like SGD and RMSprop.
 weight_decay: L2 regularization strength for the optimizer.
 Example Configuration:
-python
-Copy code
 {
     'device': 'cuda',
     'learning_rate': 0.001,
